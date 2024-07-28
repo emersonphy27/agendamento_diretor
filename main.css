@@ -1,0 +1,90 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+input,
+textarea,
+button,
+h1,
+h2 {
+    display: block;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: 16px;
+    height: 32px;
+    width: 370px;
+}
+
+h1 {
+    margin-top: 24px;
+}
+
+button {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(84, 163, 84);
+    color: #fff;
+    cursor: pointer;
+}
+
+form textarea {
+    resize: none;
+    height: 60px;
+}
+
+body {
+    background-color: rgba(red, green, blue, alpha);
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid rgb(31, 38, 138);
+    padding: 16px;
+    font-size: 18px;
+    color: rgb(80, 34, 153);
+    font-weight: bold;
+
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+button:hover {
+    background-color: rgb(62, 138, 62);
+}
+
+.success-message {
+    background-color: #27a;
+    padding: 8px;
+    color: #fff;
+    display: none;
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda do diretor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/Telefone.png.jpg" alt="telefonia">
+            <h1>Agendamento do diretor</h1>
+        </header>
+        <form id="form-contatos" >
+            <input type="text" id="nome-usuario" required placeholder="Nome do usuário" />
+            <input type="tel" id="numero-telefone" required placeholder="Numéro de telefone" />
+            <button>Adicionar Agendamento</button>
+        </form>
+            <table id="tabela" cellspacing = "0" >
+        <thead>
+            <tr>
+                <th>Usuário</th>
+                <th>Telefone</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
